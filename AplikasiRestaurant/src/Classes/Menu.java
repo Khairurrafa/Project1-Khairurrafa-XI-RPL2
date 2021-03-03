@@ -18,7 +18,7 @@ public class Menu {
     }
 
     public void setHarga(double harga) {
-        this.harga = nama_menu;
+        this.harga = harga;
     }
 
     public String getKategori() {
