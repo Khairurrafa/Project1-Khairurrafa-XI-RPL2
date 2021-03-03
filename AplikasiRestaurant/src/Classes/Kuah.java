@@ -1,5 +1,5 @@
 package Classes;
 
-public class Kuah {
+public class Kuah extends Menu{
     public Kuah(String nama_kuah) { }
 }
