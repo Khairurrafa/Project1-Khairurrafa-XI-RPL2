@@ -50,7 +50,7 @@ public class Transaksi {
         }
 
         System.out.println("Meja : " + noMeja);
-        System.out.println("============================");
+        System.out.println("=============================");
         for (int i = 0; i < pesanan.size(); i++) {
             Pesanan psn = pesanan.get(i);
             Menu m = psn.getMenu();
