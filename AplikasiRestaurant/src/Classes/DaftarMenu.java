@@ -73,13 +73,13 @@ public class DaftarMenu {
             Scanner input = new Scanner(System.in);
 
             System.out.print("Kuah [sesuai nomor menu] : ");
-            int no_menu == input.nextInt();
+            int no_menu = input.nextInt();
 
             //get menu berdasarkan no_menu, di -1 karena arrayList mulai dari 0
             Menu m = daftarMenu.get(no_menu-1);
 
             //cek apakah menu kuah?
-            if (!m.getKategori().equalsIgnoreCase("Kuah")) {
+            if (m.getKategori().equalsIgnoreCase("Kuah")) {
                 return m;
             }else {
                 System.out.println("[Err] Bukan Menu Kuah");
